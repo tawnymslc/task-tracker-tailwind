@@ -22,7 +22,7 @@ export default function TaskTracker() {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-6 bg-white rounded shadow">
+    <div className="max-w-xl mx-auto mt-10 p-6 bg-white text-black rounded shadow dark:bg-gray-900 dark:text-white">
       <h1 className="text-3xl font-bold mb-4 text-center">Task Tracker</h1>
       <div className="flex gap-2 mb-4">
         <input

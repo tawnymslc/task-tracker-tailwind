@@ -13,7 +13,7 @@ export default function TaskLayout({ children }) {
     <div className={`min-h-screen flex ${darkMode ? 'dark' : ''}`}>
       {/* Sidebar */}
       <aside className="w-64 bg-white dark:bg-gray-900 dark:text-white shadow-md hidden md:block">
-        <div className="p-6 text-lg font-bold border-b dark:border-gray-700">Task Tracker</div>
+        <div className="p-6 text-lg font-bold text-black dark:text-white border-b border-gray-200 dark:border-gray-700">Task Tracker</div>
         <nav className="flex flex-col p-4 gap-3">
           <a href="/task-tracker" className="hover:text-blue-600 dark:hover:text-blue-400">All Tasks</a>
           <a href="/task-tracker/completed" className="hover:text-blue-600 dark:hover:text-blue-400">Completed</a>
